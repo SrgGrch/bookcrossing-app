@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
                 message.setText(R.string.title_notifications)
                 return@OnNavigationItemSelectedListener true
             }
+            R.id.navigation_bookshelf -> {
+                return@OnNavigationItemSelectedListener true
+            }
         }
         false
     }
