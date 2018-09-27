@@ -11,6 +11,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import android.R.attr.data
 import android.app.Activity
+import android.content.Context
 import android.widget.Toast
 import com.firebase.ui.auth.IdpResponse
 
@@ -20,7 +21,18 @@ import com.firebase.ui.auth.IdpResponse
 
 class SignInActivity : AppCompatActivity(){
 
+
+
+
     private val RC_SIGN_IN = 123
+
+    companion object {
+        fun start(context: Context) {
+            val intent = Intent(context, SignInActivity::class.java)
+            //intent.putExtra("isAuth", isAuthAc);
+            context.startActivity(intent)
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
