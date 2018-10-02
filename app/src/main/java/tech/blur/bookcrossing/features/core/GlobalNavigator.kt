@@ -7,7 +7,7 @@ import ru.terrakok.cicerone.Navigator
 import ru.terrakok.cicerone.commands.Command
 import ru.terrakok.cicerone.commands.Forward
 import tech.blur.bookcrossing.features.auth.signin.presentation.SignInActivity
-import tech.blur.bookcrossing.features.books.bookshelf.BookShelfActivity
+import tech.blur.bookcrossing.features.main.BookShelfActivity
 
 class GlobalNavigator(private val activity: Activity) : Navigator {
 

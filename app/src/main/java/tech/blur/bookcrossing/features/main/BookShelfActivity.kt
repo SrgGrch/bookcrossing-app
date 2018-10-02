@@ -1,4 +1,4 @@
-package tech.blur.bookcrossing.features.books.bookshelf
+package tech.blur.bookcrossing.features.main
 
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
@@ -6,11 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 import tech.blur.bookcrossing.R
-import tech.blur.bookcrossing.features.auth.signin.presentation.SignInActivity
-import android.content.Intent
 import com.google.firebase.auth.FirebaseUser
-import ru.terrakok.cicerone.Navigator
-import tech.blur.bookcrossing.features.core.GlobalNavigator
 
 
 class BookShelfActivity : AppCompatActivity() {
