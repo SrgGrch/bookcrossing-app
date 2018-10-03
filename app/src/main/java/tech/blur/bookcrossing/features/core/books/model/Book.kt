@@ -12,7 +12,6 @@ class Book  {
     var dateRes : Date? = null
     var dateCreate : Date? = null
     var genres: Array<Int>? = null
-
     constructor(id: Int?, label: String?,
                 author: String?, owner: Int?,
                 receiver: Int?, dateRes: Date?,
