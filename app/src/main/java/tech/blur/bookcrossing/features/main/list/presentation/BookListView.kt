@@ -8,7 +8,7 @@ interface BookListView : MvpView {
 
      fun hideProgress()
 
-     fun showBookList(list: List<Book>)
+     fun showBookList(list: ArrayList<Book>)
 
      fun signOutDone(isAuth: Boolean?)
 

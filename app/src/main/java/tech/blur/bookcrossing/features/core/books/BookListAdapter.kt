@@ -29,7 +29,7 @@ class BookListAdapter(val books : ArrayList<Book>, val context: Context,val list
     override fun onBindViewHolder(holder: BookHolder, position: Int) {
         holder?.title?.text = books.get(position).label
         holder?.author?.text = books.get(position).author
-        holder?.itemView.setOnClickListener { listener.onBookSelected() }
+        holder?.itemView.setOnClickListener { listener.onBookSelected(books.get(position)) }
     }
 
     class BookHolder(view: View) : RecyclerView.ViewHolder(view){
@@ -37,6 +37,6 @@ class BookListAdapter(val books : ArrayList<Book>, val context: Context,val list
         val author = view.author
     }
     interface SelectBookListener{
-        fun onBookSelected()
+        fun onBookSelected(book : Book)
     }
 }
