@@ -1,2 +1,2 @@
-package tech.blur.bookcrossing.features.books.bookshelf.presentation
+package tech.blur.bookcrossing.features.main.bookshelf.presentation
 
