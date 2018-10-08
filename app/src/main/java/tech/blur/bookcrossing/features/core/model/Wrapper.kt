@@ -1,4 +1,4 @@
-package tech.blur.bookcrossing.features.core.events.model
+package tech.blur.bookcrossing.features.core.model
 
 class Wrapper<T>(val data: T) {
 

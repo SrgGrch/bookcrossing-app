@@ -4,7 +4,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import tech.blur.bookcrossing.exception.EmptyBodyException
-import tech.blur.bookcrossing.features.core.events.model.Wrapper
+import tech.blur.bookcrossing.features.core.model.Wrapper
 
 class DefaultCallback<T>(private val carry: Carry<T>) : Callback<Wrapper<T>> {
 

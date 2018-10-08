@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">BookCrossing</string>
+    <string name="app_name">Hook-a-Book</string>
+
+    <!--BottomNavBar-->
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
