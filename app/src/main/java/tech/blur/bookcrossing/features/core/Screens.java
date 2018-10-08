@@ -7,5 +7,5 @@ public interface Screens {
 
     String SIGN_IN = "SIGN_IN";
 
-    //hi
+
 }

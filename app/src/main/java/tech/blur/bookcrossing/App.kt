@@ -10,13 +10,8 @@ import tech.blur.bookcrossing.network.RetrofitProvider
 
 class App : Application() {
 
-    private var retrofitProvider: RetrofitProvider? = null
+    private lateinit  var retrofitProvider: RetrofitProvider
 
-    private var component: AppComponent? = null
-
-    fun getComponent(): AppComponent? {
-        return component
-    }
 
     override fun onCreate() {
         super.onCreate()
@@ -27,6 +22,12 @@ class App : Application() {
 
     companion object {
 
+//
+//        fun getComponent(): AppComponent? {
+//            return component
+//            //TODO Сделать геттер для компонента
+//        }
+
         fun getRetrofitProvider(context: Context): RetrofitProvider? {
             return getApp(context).retrofitProvider
         }
@@ -34,5 +35,7 @@ class App : Application() {
         private fun getApp(context: Context): App {
             return context.applicationContext as App
         }
+
+        var component: AppComponent? = null
     }
 }

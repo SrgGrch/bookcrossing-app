@@ -22,6 +22,7 @@ class BookListFragment : BookListView, MvpAppCompatFragment()  {
     val books : ArrayList<Book> = ArrayList()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+
         return inflater?.inflate(R.layout.book_list_fragment, container, false)
 
         all_books_recycler_view.layoutManager = LinearLayoutManager(this.requireContext())

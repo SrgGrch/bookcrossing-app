@@ -10,11 +10,9 @@ import tech.blur.bookcrossing.features.core.qualifier.Global;
 @Module
 public class NavigatorModule {
 
-    private Cicerone<Router> localCicerone;
     private Cicerone<Router> globalCicerone;
 
     public NavigatorModule() {
-        localCicerone = Cicerone.create();
         globalCicerone = Cicerone.create();
     }
 
