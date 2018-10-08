@@ -4,8 +4,8 @@ import javax.inject.Singleton;
 
 import dagger.Component;
 import tech.blur.bookcrossing.features.auth.signin.presentation.SignInActivity;
-import tech.blur.bookcrossing.features.books.StartActivity.presentation.BookShelfActivity;
 import tech.blur.bookcrossing.features.core.modules.NavigatorModule;
+import tech.blur.bookcrossing.features.main.BookShelfActivity;
 
 @Singleton
 @Component(modules = {NavigatorModule.class})
