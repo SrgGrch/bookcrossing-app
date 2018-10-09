@@ -15,5 +15,9 @@ class BookShelfFragment: BaseFragmentNew(){
     }
 
 
+
+
+
+
     //TODO Фрагмент содержащий табы
 }
