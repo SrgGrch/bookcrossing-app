@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".features.main.list.presentation.AllBooksFragment"
-    android:id="@+id/all_books_fragment"
-    >
+    android:id="@+id/all_books_fragment">
 
     <ProgressBar
         android:id="@+id/all_books_progressBar"
@@ -24,13 +24,13 @@
             android:layout_height="match_parent"
             />
     </android.support.v4.widget.SwipeRefreshLayout>
-    <!--TODO add a picture to floating button-->
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/add_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
-
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/baseline_add_black_18dp"
+        />
 
 </FrameLayout>
