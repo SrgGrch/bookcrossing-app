@@ -4,4 +4,7 @@ import com.arellomobile.mvp.MvpPresenter
 
 class TakenBooksPresentor: MvpPresenter<TakenBooksView>(){
 
+
+
+
 }
