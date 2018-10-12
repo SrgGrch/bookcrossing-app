@@ -22,12 +22,6 @@ class App : Application() {
 
     companion object {
 
-//
-//        fun getComponent(): AppComponent? {
-//            return component
-//            //TODO Сделать геттер для компонента
-//        }
-
         fun getRetrofitProvider(context: Context): RetrofitProvider? {
             return getApp(context).retrofitProvider
         }

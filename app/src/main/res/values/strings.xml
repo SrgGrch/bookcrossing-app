@@ -2,11 +2,17 @@
     <string name="app_name">Hook-a-Book</string>
 
     <!--BottomNavBar-->
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_feed">Feed</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_genres">Generes</string>
+
+
     <string name="options">options</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_shelf">Shelf</string>
+
 </resources>

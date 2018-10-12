@@ -1,17 +1,14 @@
 package tech.blur.bookcrossing.features.main
 
-import android.app.Fragment
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentTransaction
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.appcompat.R.id.add
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 import tech.blur.bookcrossing.R
 import com.google.firebase.auth.FirebaseUser
-import kotlinx.android.synthetic.main.fragment_all_books.*
 import tech.blur.bookcrossing.features.main.list.presentation.AllBooksFragment
 
 
@@ -43,11 +40,11 @@ class BookShelfActivity : AppCompatActivity() {
 
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
-            R.id.navigation_home -> {
+            R.id.navigation_profile -> {
 
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_dashboard -> {
+            R.id.navigation_feed -> {
 
                 return@OnNavigationItemSelectedListener true
             }
@@ -56,6 +53,10 @@ class BookShelfActivity : AppCompatActivity() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_bookshelf -> {
+
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.navigation_genres -> {
 
                 return@OnNavigationItemSelectedListener true
             }
